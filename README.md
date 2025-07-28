@@ -1,4 +1,5 @@
 # 🌐 Konrad Michalak - Portfolio
+# https://konradm-it.github.io/
 
 Cześć! 👋  
 Jestem **początkującym programistą** i pasjonatem nowych technologii.  
