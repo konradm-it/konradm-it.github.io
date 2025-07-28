@@ -1,1 +1,1 @@
-# konradm-it.github.io
+# Strona Intrnetowa - Portfolio
