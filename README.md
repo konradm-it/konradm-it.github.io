@@ -1,3 +1,4 @@
+# Projekt niedokończony...
 # 🌐 Konrad Michalak - Portfolio
 # https://konradm-it.github.io/
 
