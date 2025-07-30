@@ -173,6 +173,8 @@ section h1{
 
 }
 
+
+
 #oferta button {
     background-color: #111827;
   border: 1px solid transparent;
@@ -294,8 +296,17 @@ footer {
         gap: 30px;
     }
 
+    .kontakt-logo {
+        width: 60px;
+        height: 60px;
+    }
+
     .oferta {
         flex-direction: column;
+    }
+
+    #oferta button {
+        padding: .75rem 1.7rem;
     }
 
     .navbar-pc {
@@ -347,6 +358,9 @@ footer {
         border-bottom: none;
         border-top: none;
     }
+
+
+    
 
 
 }
