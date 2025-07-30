@@ -28,6 +28,10 @@ header {
 
 /* ---------- NAVBAR ---------- */
 
+.navbar-tel {
+    display: none;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -238,7 +242,7 @@ footer {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
     .intro {
         flex-direction: column;
         align-items: center;
@@ -252,6 +256,56 @@ footer {
 
     .oferta {
         flex-direction: column;
+    }
+
+    .navbar-pc {
+        display: none;
+    }
+
+    .navbar-tel {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        color: grey
+    }
+
+    .menu-ikona {
+        font-size: 2em;
+        padding: 10px;
+        cursor: pointer;
+        position: absolute;
+        top:0px;
+        right: 0px;
+    }
+
+    .menu{
+        display: none;
+        margin-top:70px;
+        list-style: none;
+        text-align: right;
+        margin-right: 50px;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.5em;
+        margin-top:10px;
+        font-weight: bold;
+    }
+
+    .menu li {
+        margin: 15px 0;
+    }
+
+    .menu.active {
+        display:flex;
+        flex-direction: column;
+    }
+
+    #o-mnie, #umiejetnosci, #oferta {
+        border-bottom: none;
+        border-top: none;
     }
 
 

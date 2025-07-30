@@ -8,7 +8,19 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <nav>
+
+    <nav class="navbar-tel">
+        <div class="menu-ikona" onclick="toggleMenu()">☰</div>
+        <ul class="menu">
+            <li><a href="">Wstęp/Kontakt</a></li>
+            <li><a href="#wyksztalcenie" onclick="hideMenu()">Wykształcenie</a></li>
+            <li><a href="#umiejetnosci" onclick="hideMenu()">Umiejętności</a></li>
+            <li><a href="#projekty" onclick="hideMenu()">Projekty</a></li>
+        </ul>
+    </nav>
+
+
+    <nav class="navbar-pc">
 
         <div class="logo">
             <img src="img/pythonlogo.png" alt="PythonLogo" class="pylogo">
