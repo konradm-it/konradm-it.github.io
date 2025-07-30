@@ -175,8 +175,6 @@ section h1{
 }
 
 #oferta{
-    border-top: #000000 2px solid;
-    border-radius: 20px;
     margin-left: 250px;
     margin-right: 250px;
     display: flex;
@@ -301,7 +299,7 @@ footer {
         flex-direction: column;
     }
 
-    #o-mnie, #umiejetnosci, #oferta {
+    #o-mnie, #umiejetnosci {
         border-bottom: none;
         border-top: none;
     }
