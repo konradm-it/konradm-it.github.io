@@ -125,17 +125,6 @@ section h1{
     font-size: 2em;
 }
 
-#o-mnie {
-    border-bottom: #000000 2px solid;
-    border-radius: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-#o-mnie h1{
-    text-align: center;
-}
-
 #wyksztalcenie div {
     background-color: rgba(255, 255, 255, 0.351);
     padding: 30px;
@@ -308,7 +297,7 @@ footer {
         flex-direction: column;
     }
 
-    #o-mnie, #umiejetnosci {
+    #umiejetnosci {
         border-bottom: none;
         border-top: none;
     }
