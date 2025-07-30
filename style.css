@@ -217,33 +217,22 @@ section h1{
     align-items: center;
 }
 
-#oferta h2 {
-    border-top: black 2px solid;
-    padding-top: 10px;
-}
-
 #strona, #automatyzacja {
-    background: #0088ff35;
     padding-left: 25px;
     padding-right: 25px;
-    border-radius: 20px;
     width: 350px;
-    box-shadow: 0 0 100px 2px #0088ff35;
+    border-left:#000000 2px solid;
 
 }
 
 .oferta-pracodawca {
-    background: #0088ff35;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 20px;
-    box-shadow: 0 0 100px 2px #0088ff35;
     max-width: 1000px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-left:#000000 2px solid; 
 }
 .oferta img{
     width: 40px;
