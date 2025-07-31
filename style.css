@@ -1,14 +1,33 @@
 body {
     margin: 0px;
     font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    overflow-y: scroll;
+    scrollbar-width: none;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
 main {
-    margin-top: 75px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 70px;
+    margin-left: 165px;
+}
+
+#scroll-progress {
+    border-radius: 20px;;
+    position: fixed;
+    left: 4px;
+    top: 25px;
+    bottom: 100px;
+    width: 6px; /* szerokość paska */
+    height: 0;
+    background: #3498db; /* kolor paska */
+    z-index: 1;
 }
 
 /* ---------- HEADER ---------- */
@@ -20,9 +39,9 @@ header {
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    box-shadow: 0 0 50px 2px rgb(0, 0, 0);
+    box-shadow: 3px 0 12px rgba(0, 0, 0, 0.356);
     padding-bottom: 30px;
-    border-radius: 0 0 50px 50px;
+    border-radius: 0 0 50px 0px;
     
 }
 
@@ -33,45 +52,39 @@ header {
 }
 
 nav {
-    display: flex;
-    justify-content: space-around;
-    background: #363636;
-    text-align: center;
+    background: #ffffff;
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
+    box-shadow: 3px 0 8px rgba(0,0,0,.08);
 }
 
-.logo {
-    display: flex;
-    color: #fff;
+.navbar a {
+    color: #000000;
+    text-decoration: none;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.2em;
+    z-index: 10;
 }
 
-.logo img {
-    width: 40px;
-    height: 40px;
-    padding: 17px;
+.navbar a:hover {
+    color:#1a1a1a ;
+}
+
+.navbar-pc {
+    display: flex;
+    flex-direction: column;
+    width: 165px;
+    height: 100%;
 }
 
 .navbar {
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.navbar a {
-    color: #fff;
-    margin: 20px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.2em;
-    
-}
-
-.navbar a:hover {
-    color:#d1d1d1 ;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    margin-left: 20px;
 }
 
 /* ---------- INTRODUCTION ---------- */
@@ -258,22 +271,17 @@ section h1{
 }
 
 
-/* ---------- FOOTER ---------- */
-
-footer {
-    background: #222;
-    color: #fff;
-    text-align: center;
-    padding: 15px 0;
-    margin-top: 40px;
-    font-size: 0.95em;
-}
 
 
-@media (max-width: 850px) {
+@media (max-width: 970px) {
+
+    header {
+        border-radius: 0 0 0 0;
+    }
 
     main {
         margin-top: 0px;
+        margin-left: 0px;
     }
 
     .intro {

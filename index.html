@@ -13,8 +13,8 @@
     <nav class="navbar-tel">
         <div class="menu-ikona" onclick="toggleMenu()">☰</div>
         <ul class="menu">
-            <li><a href="">Wstęp/Kontakt</a></li>
-            <li><a href="#wyksztalcenie" onclick="hideMenu()">Certyfikaty</a></li>
+            <li><a href="#wstep" onclick="hideMenu()">Wstęp/Kontakt</a></li>
+            <li><a href="#certyfikaty" onclick="hideMenu()">Certyfikaty</a></li>
             <li><a href="#umiejetnosci" onclick="hideMenu()">Umiejętności</a></li>
             <li><a href="#projekty" onclick="hideMenu()">Projekty</a></li>
         </ul>
@@ -22,15 +22,11 @@
 
 
     <nav class="navbar-pc">
-
-        <div class="logo">
-            <img src="img/pythonlogo.png" alt="PythonLogo" class="pylogo">
-            <p>Konrad</p>
-        </div>
-
         <div class="navbar">
-            <a href="">Wstęp/Kontakt</a>
-            <a href="#wyksztalcenie">Certyfikaty</a>
+            <div id="scroll-progress"></div>
+            <a href="#wstep">Wstęp/Kontakt</a>
+            <a href="#oferta">Oferta</a>
+            <a href="#certyfikaty">Certyfikaty</a>
             <a href="#umiejetnosci">Technologie</a>
             <a href="#projekty">Projekty</a>
         </div>
@@ -42,7 +38,7 @@
 
             <!--zdjecie i przywitanie-->
 
-            <div class="intro">
+            <div class="intro" id="wstep">
                 <div class="intro-img">
                     <img src="img/konrad.png" alt="Konrad Michalak" class="profile-img">
                 </div>
@@ -125,7 +121,7 @@
 
         <!-- kursy -->
 
-        <section id="kursy">
+        <section id="certyfikaty">
 
             <h1>Kursy i certyfikaty</h1>
             <h3>/Sekcja w trakcie budowy.../</h3>
@@ -164,9 +160,5 @@
 
 
     </main>
-
-    <footer>
-        &copy; 2025 <i>Konrad Michalak</i>
-    </footer>
 </body>
 </html>
