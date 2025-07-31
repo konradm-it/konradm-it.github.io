@@ -66,6 +66,11 @@ nav {
     font-weight: bold;
     font-size: 1.2em;
     z-index: 10;
+    
+}
+
+.navbar li {
+    list-style: square;
 }
 
 .navbar a:hover {
@@ -79,12 +84,12 @@ nav {
     height: 100%;
 }
 
-.navbar {
+.navbar ul{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: 100vh;
-    margin-left: 20px;
+    margin-left: 5px;
 }
 
 /* ---------- INTRODUCTION ---------- */
@@ -102,7 +107,7 @@ nav {
 }
 
 .intro-text h1{
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .kontakt {
@@ -118,10 +123,7 @@ nav {
     color: black;
 }
 
-.kontakt-link {
-    font-size: 1.0em;
-    text-align: center;
-}
+
 
 .kontakt-logo {
     width: 50px;
@@ -131,7 +133,7 @@ nav {
 /* ---------- SECTIONS ---------- */
 
 section {
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 section h1{
@@ -150,31 +152,16 @@ section h1{
     text-align: center;
 }
 
-#umiejetnosci {
-    border-top: #000000 2px solid;
-    border-radius: 20px;
-    text-align: center;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;;
-}
-
-#umiejetnosci ul{
+.umiejetnosci {
     display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
+    justify-content:space-between;
 }
 
-#umiejetnosci li {
-    width: 240px;
-    margin: 50px;
-    padding: 10px 20px 20px 20px;
-    background-color: #0088ff35;
-    border-radius: 20px;
-    list-style-type: none;
-    box-shadow: 0 0 100px 2px #0088ff35;
+.umiejetnosci div {
+    border-left: 2px solid #000000;
 }
+
+
 
 #oferta{
     margin-left: 250px;

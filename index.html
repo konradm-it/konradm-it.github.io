@@ -13,9 +13,10 @@
     <nav class="navbar-tel">
         <div class="menu-ikona" onclick="toggleMenu()">☰</div>
         <ul class="menu">
-            <li><a href="#wstep" onclick="hideMenu()">Wstęp/Kontakt</a></li>
+            <li><a href="#wstep" onclick="hideMenu()">Wstęp</a></li>
+            <a href="#oferta" onclick="hideMenu()">Oferta</a>
             <li><a href="#certyfikaty" onclick="hideMenu()">Certyfikaty</a></li>
-            <li><a href="#umiejetnosci" onclick="hideMenu()">Umiejętności</a></li>
+            <li><a href="#umiejetnosci" onclick="hideMenu()">Technologie</a></li>
             <li><a href="#projekty" onclick="hideMenu()">Projekty</a></li>
         </ul>
     </nav>
@@ -24,11 +25,13 @@
     <nav class="navbar-pc">
         <div class="navbar">
             <div id="scroll-progress"></div>
-            <a href="#wstep">Wstęp/Kontakt</a>
-            <a href="#oferta">Oferta</a>
-            <a href="#certyfikaty">Certyfikaty</a>
-            <a href="#umiejetnosci">Technologie</a>
-            <a href="#projekty">Projekty</a>
+            <ul>
+                <li><a href="#wstep">Intro</a></li>
+                <li><a href="#oferta">Oferta</a></li>
+                <li><a href="#certyfikaty">Certyfikaty</a></li>
+                <li><a href="#umiejetnosci">Technologie</a></li>
+                <li><a href="#projekty">Projekty</a></li>
+            </ul>
         </div>
     </nav>
 
@@ -131,22 +134,28 @@
 
     <section id="umiejetnosci">
         <h1>Technologie w których pracuje</h1></br>
-        <h3>Języki programowania/frameworki</h3>
-        <ul>
-            <li>Python</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>SQL</li>
-            <li>C</li>
-        </ul>
-        <h3>Narzędzia</h3>
-        <ul>
-            <li>Git</li>
-            <li>Linux</li>
-            <li>Docker</li>
-            <li>Kubernetes</li>
-        </ul>
+        
+        <div class="umiejetnosci">
+            <div class="jezyki-programowania">
+                <ul>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+
+            <div class="narzedzia">
+                <ul>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>Docker</li>
+                    <li>Linux</li>
+                </ul>
+            </div>
+        </div>
+
     </section>
 
         <!-- Projekty -->
